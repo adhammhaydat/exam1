@@ -1,0 +1,23 @@
+body{
+  display: grid;
+  grid-template-rows: 100px 1fr;
+  gap: 20px;
+}
+header{
+  background-color: aqua;
+}
+main{
+  display: flex;
+  justify-content: space-around;
+}
+#ol{list-style:decimal ;}
+ol li{
+  
+  display: flex;
+  flex-direction: column}
+
+.text{font-size: 30px;
+}  
+.text2{
+  color: blue;
+}
